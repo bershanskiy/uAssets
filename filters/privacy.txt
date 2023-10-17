@@ -613,9 +613,15 @@ bikesales.com.au##^html > head > :is([name="canonical"], [rel="canonical"]):not(
 ! https://github.com/uBlockOrigin/uBlock-issues/discussions/2714#discussioncomment-6396384
 !#if env_chromium
 *$permissions=browsing-topics=(),from=~localhost
+*$permissions=keyboard-map=(),from=~localhost
 *$permissions=idle-detection=(),from=~localhost
 *$permissions=join-ad-interest-group=(),from=~localhost
+*$permissions=private-aggregation=(),from=~localhost
+*$permissions=private-state-token-issuance=(),from=~localhost
+*$permissions=private-state-token-redemption=(),from=~localhost
 *$permissions=run-ad-auction=(),from=~localhost
+*$permissions=shared-storage=(),from=~localhost
+*$permissions=shared-storage-select-url=(),from=~localhost
 *$permissions=attribution-reporting=(),from=~localhost
 !#endif
 
